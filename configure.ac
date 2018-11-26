@@ -23,7 +23,7 @@ AX_BOOST_BASE
 AX_BOOST_FILESYSTEM
 
 AC_LANG_PUSH([C++])
-AC_CHECK_HEADER([libfswatch/c++/monitor.hpp], [], AC_MSG_ERROR([unable to find libfswatch/c++/monitor.hpp]))
+AC_CHECK_HEADER([libfswatch/c++/monitor_factory.hpp], [], AC_MSG_ERROR([unable to find libfswatch/c++/monitor_factory.hpp]))
 AC_LANG_POP([C++])
 
 PKG_CHECK_MODULES([GLIB], [glib-2.0])

@@ -1,6 +1,6 @@
 #include <libfswatch/c++/event.hpp>
 #include <libfswatch/c++/filter.hpp>
-#include <libfswatch/c++/monitor.hpp>
+#include <libfswatch/c++/monitor_factory.hpp>
 
 #include "manager.hpp"
 #include <cstdio>
